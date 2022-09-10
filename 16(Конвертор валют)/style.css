@@ -1,0 +1,7 @@
+.block {
+    display: flex;
+}
+
+.left-block {
+    margin-right: 100px;
+}

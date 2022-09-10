@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Js Convertor</title>
+</head>
+<body>
+    <h1>Money Convertor</h1>
+    <div class="block">
+        <div class="left-block">
+            <p>
+                <label >$</label>
+                <input type="number" id="inputdol"
+                placeholder="$" oninput="moneyConverter(this.value)" onchange="moneyConvert(this.value)">
+            </p>
+            <p>
+                Rub: <span id="outputrub"></span>
+            </p>
+        </div>
+        <div class="right-block">
+            <p>
+                <label >RUB</label>
+                <input type="number" id="inputdol"
+                placeholder="Ru" oninput="moneyConverter2(this.value)" onchange="moneyConvert(this.value)">
+            </p>
+            <p>
+                Dol: <span id="outputdol"></span>
+            </p>
+        </div>
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
